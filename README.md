@@ -4,6 +4,4 @@ The traffic of a TCP / IP protocol continues in a series of requests and respons
 
 In our project, an HTTP server uses a custom port (port) to a client server when a client request
 To connect to the server, the server receives the client connection and waits for the .HTTP request header
-We will focus only on receiving and sending client requests, so this program can receive HTML comment or put
-HTML content to or from the server respectively. This HTTP server is multithreaded so it will process a clients request
-Many at the same time.
+We will focus only on receiving and sending client requests, so this program can receive HTML comment or put HTML content into or from the respective server. This HTTP server is multithreaded so it will process many clients request at the same time.
